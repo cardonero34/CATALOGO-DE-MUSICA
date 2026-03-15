@@ -1,0 +1,13 @@
+.portada {
+    width: 90%;
+    height: 60vh;
+
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    .icon2 {
+        width: 9rem;
+        height: 3rem;
+    }
+}
