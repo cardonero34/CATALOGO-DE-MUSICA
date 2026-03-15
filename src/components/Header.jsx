@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import "../stylesheets/Header.css"
 
 export const Header = () => {
     return (
@@ -34,18 +35,18 @@ export const Header = () => {
                             </div>
                             <a className="pe-3 text-white text-decoration-none rounded-pill bg-black opacity-75 border border-white d-flex justify-content-center align-items-center" data-bs-toggle="collapse" href="#collapseExample">
                                 <div className="icon d-flex justify-content-center align-items-center p-1">
-                                    <img src="./public/search.svg" className="img-fluid m-2" />
+                                    <img src="/search.svg" className="img-fluid m-2" />
                                 </div>
                                 Search
                             </a>
                         </div>
                         <div className="icon rounded-circle bg-black opacity-75 border border-white d-flex justify-content-center align-items-center p-1">
-                            <img src="./public/notify.svg" className="img-fluid m-2" />
+                            <img src="/notify.svg" className="img-fluid m-2" />
                         </div>
                         <div className="btn-group h-100">
                             <button type="button" className="btn btn-secondary rounded-start-pill d-flex align-items-center gap-2">
                                 <div className="icon2 rounded-circle bg-white d-flex justify-content-center align-items-center p-1">
-                                    <img src="./public/perfil.png" className="img-fluid" />
+                                    <img src="/perfil.png" className="img-fluid" />
                                 </div>
                                 Usuario
                             </button>

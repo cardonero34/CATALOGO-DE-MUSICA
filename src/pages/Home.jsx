@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Cards } from '../components/Cards'
 import { Portada } from '../components/Portada'
 import { Header } from '../components/Header'
@@ -11,7 +11,7 @@ export const Home = () => {
                     <Header />
                 </div>
                 <div className="w-100 d-flex justify-content-center mb-2"  >
-                    <Portada intro="¡Bienvenido a nuestro catálogo!" h1Portada="Escucha música sin límites" info="Explora nuestra selección de música" description="Descubre nuevas canciones, artistas, álbumes y géneros" picture="./public/fondoHome.jpg"/>
+                    <Portada intro="¡Bienvenido a nuestro catálogo!" h1Portada="Escucha música sin límites" info="Explora nuestra selección de música" description="Descubre nuevas canciones, artistas, álbumes y géneros" picture="/fondoHome.jpg"/>
                 </div>
                 <div className="d-flex justify-content-between text-white" style={{ width: "90%" }}>
                     <p className="h5"> Catalogo </p>
@@ -20,11 +20,11 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mb-5" style={{ width: "90%" }} >
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="../public/home1.png" /> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="./public/home2.png" /> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="./public/home3.png" /> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="./public/home4.png" /> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="./public/home5.png" /> </div>
+                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/home1.png" /> </div>
+                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/home2.png" /> </div>
+                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/home3.png" /> </div>
+                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/home4.png" /> </div>
+                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/home5.png" /> </div>
                 </div>
             </section>
         </>

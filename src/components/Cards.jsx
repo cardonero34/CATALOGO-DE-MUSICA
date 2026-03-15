@@ -15,10 +15,10 @@ export const Cards = ({ Type, Nombre, Info, imgContent }) => {
                     </div>
                     <div className="d-flex flex-column justify-content-between align-items-end">
                         <div className="opt rounded-circle bg-body-secondary bg-opacity-50 d-flex justify-content-center align-items-center">
-                            <img src="../public/points.svg" className="p-2" />
+                            <img src="/points.svg" className="p-2" />
                         </div>
                         <div className="play rounded-circle bg-white d-flex justify-content-center align-items-center">
-                            <img src="../public/play.svg" className="p-2" />
+                            <img src="/play.svg" className="p-2" />
                         </div>
                     </div>
                 </div>
