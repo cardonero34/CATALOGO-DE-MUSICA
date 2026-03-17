@@ -20,11 +20,11 @@ export const Artists = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mb-5" style={{ width: "90%" }} >
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/artist1.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/artist2.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/artist3.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/artist4.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/artist5.png"/> </div>
+                    <div> <Cards Type="Artist" Nombre="Dua Lipa" Info="Pop moderno con fuerza, estilo y elegancia..." imgContent="/artist1.png"/> </div>
+                    <div> <Cards Type="Artist" Nombre="Evanescence" Info="Rock intenso con emoción, fuerza y dramatismo..." imgContent="/artist2.png"/> </div>
+                    <div> <Cards Type="Artist" Nombre="Lana Del Rey" Info="Melancolía, glamour y una esencia cinematográfica..." imgContent="/artist3.png"/> </div>
+                    <div> <Cards Type="Artist" Nombre="St. Vincent" Info="Arte alternativo con actitud, riesgo y estilo..." imgContent="/artist4.png"/> </div>
+                    <div> <Cards Type="Artist" Nombre="Keshi" Info="Sonido suave, íntimo y lleno de emoción..." imgContent="/artist5.png"/> </div>
                 </div>
             </section>
         </>

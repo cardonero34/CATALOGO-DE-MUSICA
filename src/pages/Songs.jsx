@@ -20,11 +20,11 @@ export const Songs = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mb-5" style={{ width: "90%" }} >
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/song1.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/song2.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/song3.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/song4.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/song5.png"/> </div>
+                    <div> <Cards Type="Song" Nombre="Peach Eyes" Info="Canción suave de 'w2e', cálida y llena de nostalgia..." imgContent="/song1.png"/> </div>
+                    <div> <Cards Type="Song" Nombre="Journey" Info="Canción de 'WOODZ' emotiva de cambio y crecimiento..." imgContent="/song2.png"/> </div>
+                    <div> <Cards Type="Song" Nombre="Drums of Death" Info="Tema de 'FKA twigs' oscuro, intenso y experimental..." imgContent="/song3.png"/> </div>
+                    <div> <Cards Type="Song" Nombre="Love Again" Info="Pop elegante de 'Dua Lipa' con energía romántica y vibrante..." imgContent="/song4.png"/> </div>
+                    <div> <Cards Type="Song" Nombre="Pajarito Colibrí" Info="Canción de 'Natalia Lafourcade' delicada, poética y llena de ternura..." imgContent="/song5.png"/> </div>
                 </div>
             </section>
         </>

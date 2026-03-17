@@ -20,11 +20,11 @@ export const Albums = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mb-5" style={{ width: "90%" }} >
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info... " imgContent="/album1.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/album2.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/album3.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/album4.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/album5.png"/> </div>
+                    <div> <Cards Type="Album" Nombre="Preacher’s Daughter" Info="Álbum oscuro de 'Ethel Cain', intenso y profundamente emocional... " imgContent="/album1.png"/> </div>
+                    <div> <Cards Type="Album" Nombre="Cowboy Carter" Info="Una propuesta de 'Beyoncé' audaz con raíces country y soul..." imgContent="/album2.png"/> </div>
+                    <div> <Cards Type="Album" Nombre="Future Nostalgia (The Moonlight Edition)" Info="Pop brillante de 'Dua Lipa', bailable y lleno de energía retro..." imgContent="/album3.png"/> </div>
+                    <div> <Cards Type="Album" Nombre="GOLDEN HOUR : Part.4" Info="Energía intensa de 'ATEEZ', estilo moderno y gran impacto visual..." imgContent="/album4.png"/> </div>
+                    <div> <Cards Type="Album" Nombre="What Happened To The Heart?" Info="Álbum etéreo de 'AURORA', emotivo y lleno de sensibilidad..." imgContent="/album5.png"/> </div>
                 </div>
             </section>
         </>

@@ -20,11 +20,11 @@ export const Genres = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mb-5" style={{ width: "90%" }} >
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/genre1.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/genre2.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/genre3.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/genre4.png"/> </div>
-                    <div> <Cards Type="Album" Nombre="Nombre" Info="Info..." imgContent="/genre5.png"/> </div>
+                    <div> <Cards Type="Genre" Nombre="Pop" Info="Melodías pegajosas, ritmo y energía moderna..." imgContent="/genre1.png"/> </div>
+                    <div> <Cards Type="Genre" Nombre="Rock" Info="Ritmo intenso, energía y emociones auténticas..." imgContent="/genre2.png"/> </div>
+                    <div> <Cards Type="Genre" Nombre="Jazz" Info="Melodías complejas, improvisación y sofisticación..." imgContent="/genre3.png"/> </div>
+                    <div> <Cards Type="Genre" Nombre="Indie / Alternativo" Info="Sonidos únicos, creativos y fuera de lo común..." imgContent="/genre4.png"/> </div>
+                    <div> <Cards Type="Genre" Nombre="K-Pop" Info="Ritmo, estilo y energía global vibrante..." imgContent="/genre5.png"/> </div>
                 </div>
             </section>
         </>

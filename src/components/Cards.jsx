@@ -11,7 +11,7 @@ export const Cards = ({ Type, Nombre, Info, imgContent }) => {
                             <p className="m-0 pb-1 px-3">{Type}</p>
                         </div>
                         <p className="fw-semibold m-0">{Nombre}</p>
-                        <p className="opacity-50 m-0">{Info}</p>
+                        <p className="opacity-50 m-0 pe-3">{Info}</p>
                     </div>
                     <div className="d-flex flex-column justify-content-between align-items-end">
                         <div className="opt rounded-circle bg-body-secondary bg-opacity-50 d-flex justify-content-center align-items-center">

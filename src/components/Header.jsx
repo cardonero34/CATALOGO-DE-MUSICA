@@ -54,11 +54,12 @@ export const Header = () => {
                                 <span className="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else</a></li>
+                                <li><a className="dropdown-item" href="#">Mi perfil</a></li>
+                                <li><a className="dropdown-item" href="#">Favoritos</a></li>
+                                <li><a className="dropdown-item" href="#">Mi biblioteca</a></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a className="dropdown-item" href="#">Configuración</a></li>
+                                <li><a className="dropdown-item" href="#">Cerrar sesión</a></li>
                             </ul>
                         </div>
                     </div>
